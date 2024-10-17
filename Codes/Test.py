@@ -1,4 +1,7 @@
+#Checking NUll Values
 import pandas as pd
-df=pd.read_csv("/Users/jayadeep/Desktop/Prep/Facebook_EDA/FB_Data.csv")
+data=pd.read_csv("/Users/jayadeep/Desktop/Prep/Facebook_EDA/FB_Data.csv")
+print(data.isnull().sum())
 
-print(df.columns)
+
+
